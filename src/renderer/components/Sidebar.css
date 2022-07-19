@@ -1,0 +1,39 @@
+#sidebar {
+  position: fixed;
+  background-color: #0C2D48;
+  width: 70px;
+  height: 100vh;
+}
+#sidebar p {
+  margin: 0;
+}
+#top-icons {
+  position: fixed;
+  top: 50px;
+}
+#bottom-icons {
+  position: fixed;
+  bottom: 15px;
+}
+.icon-div {
+  transition: 0.25s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  height: 70px;
+  width: 70px;
+  color: #b1d4e0ab;
+}
+.icon-div:hover {
+  transition: 0.5s ease-in;
+  cursor: pointer;
+  color: white;
+}
+.icon-div svg {
+  font-size: 35px;
+}
+.icon-div p {
+  font-size: 12px;
+}

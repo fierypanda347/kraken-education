@@ -1,20 +1,17 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home, Navbar, Sidebar } from './exporter'
 import './App.css';
-
-const Hello = () => {
-  return (
-    <div>
-      <h1>hi</h1>
-    </div>
-  );
-};
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Hello />} />
-      </Routes>
-    </Router>
+    <>
+      <Navbar />
+      <Sidebar />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
