@@ -11,7 +11,10 @@ export default function Navbar() {
             </div>
             <div id="nav-right-fold">
                 <div id="nav-search">
-                    <input type="text" placeholder='Search'/>
+                    <div id="nav-search-icon" onClick={() => {
+                      document.getElementById('nav-search-input').focus();
+                    }}><Search /></div>
+                    <input type="text" placeholder='Search' id='nav-search-input' />
                 </div>
                 <div id="nav-profile">
                     <Settings id='settings-icon' className='navbar-icon' />

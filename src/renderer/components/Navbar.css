@@ -27,7 +27,9 @@
   justify-content: space-between;
 }
 #nav-search {
+  display: flex;
   flex: 64;
+  cursor: text;
 }
 #nav-search input {
   width: 100%;
@@ -35,7 +37,7 @@
   /* removing border */
   border: none;
   /* adding border radius */
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   /* background color */
   background-color: #525252;
   /* text settings */
@@ -50,6 +52,18 @@
 #nav-search input::placeholder {
   font-family: 'Inter', sans-serif;
   color: rgb(191, 191, 191);
+}
+#nav-search-icon {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  background-color: #525252;
+  color: #808080;
+  border-radius: 5px 0px 0px 5px;
+}
+#nav-search-icon svg {
+  margin-left: 10px;
 }
 #nav-profile {
   display: flex;

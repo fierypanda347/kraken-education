@@ -1,11 +1,8 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
 #home {
   position: fixed;
   top: 50px;
   left: 70px;
-=======
+}
 #class-container {
   padding: 25px 30px 0px 30px;
 }
@@ -26,9 +23,7 @@
   border: none;
   border-radius: 10px;
   width: 125px;
->>>>>>> Stashed changes
 }
->>>>>>> Stashed changes
 #class-container {
   padding: 25px 30px 0px 30px;
 }
