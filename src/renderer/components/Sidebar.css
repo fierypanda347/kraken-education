@@ -1,6 +1,7 @@
 #sidebar {
   position: fixed;
-  background-color: #0C2D48;
+  background-color: #D4F1F4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 70px;
   height: 100vh;
 }
@@ -9,7 +10,7 @@
 }
 #top-icons {
   position: fixed;
-  top: 50px;
+  top: 55px;
 }
 #bottom-icons {
   position: fixed;
@@ -24,12 +25,12 @@
   gap: 5px;
   height: 70px;
   width: 70px;
-  color: #b1d4e0ab;
+  color: #62a1b6;
 }
 .icon-div:hover {
   transition: 0.5s ease-in;
   cursor: pointer;
-  color: white;
+  color: #235c6f;
 }
 .icon-div svg {
   font-size: 35px;

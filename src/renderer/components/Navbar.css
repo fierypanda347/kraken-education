@@ -3,8 +3,9 @@
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #0C2D48;
+  background-color: #05445E;
   height: 50px;
+  z-index: 1;
 }
 .navbar-icon {
   color: white;

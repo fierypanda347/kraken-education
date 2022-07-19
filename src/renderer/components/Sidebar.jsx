@@ -1,24 +1,24 @@
 import './Sidebar.css'
 import { Help, Home } from '@mui/icons-material';
+import { Link } from 'react-router-dom'
 
 export default function Sidebar() {
-    function handleIconClick(button) {
-        console.log(button);
-    }
     return (
-        <div id="sidebar">
-            <div id="top-icons">
-                <div className="icon-div" id="home-icon" onClick={handleIconClick("home")}>
-                    <Home />
-                    <p>Home</p>
-                </div>
+      <div id="sidebar">
+        <div id="top-icons">
+          <Link to="/">
+            <div className="icon-div" id="home-icon">
+              <Home />
+              <p>Home</p>
             </div>
-            <div id="bottom-icons">
-                <div className="icon-div" id="help-icon" onClick={handleIconClick("help")}>
-                    <Help />
-                    <p>Help</p>
-                </div>
-            </div>
+          </Link>
         </div>
+        <div id="bottom-icons">
+          <div className="icon-div" id="help-icon">
+            <Help />
+            <p>Help</p>
+          </div>
+        </div>
+      </div>
     )
 }

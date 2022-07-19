@@ -1,0 +1,44 @@
+#add-class-container {
+  margin: 25px 0px 0px 30px;
+}
+#add-class-description {
+  margin-top: 5px;
+  font-size: 20px;
+}
+#add-class-form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#student-number-input::-webkit-outer-spin-button,
+#student-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-class-input {
+  height: 38px;
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+  background-color: #74d2dc8f;
+}
+.add-class-input:focus {
+  outline: none;
+}
+.add-class-input::placeholder {
+  color: #4f7b80;
+}
+#add-class-submit-btn {
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: #63e763c0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #429842;
+}

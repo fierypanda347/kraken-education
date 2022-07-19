@@ -15,12 +15,19 @@
    margin: 0;
  }
 
+ p {
+  margin: 0;
+ }
+
  #root {
   height: 100vh;
-  background-color: #145DA0;
+  background-color: #D4F1F4;
 }
 #page {
   position: fixed;
   top: 50px;
   left: 70px;
+}
+a {
+  text-decoration: none;
 }
