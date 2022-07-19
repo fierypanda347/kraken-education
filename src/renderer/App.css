@@ -19,8 +19,10 @@
   height: 100vh;
   background-color: #145DA0;
 }
-#page {
+.page {
   position: fixed;
   top: 50px;
   left: 70px;
+  right: 0px;
+  bottom: 0px;
 }

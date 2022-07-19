@@ -2,9 +2,12 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <div id="home">
+    <div className="page" id="home">
       <div id="class-container">
-        <h1 id="class-container-title">Your Classes</h1>
+        <div id="class-container-header">
+          <h1 id="class-container-title">Your Classes</h1>
+          <button id="add-class-button">+&nbsp;Add Class</button>
+        </div>
       </div>
     </div>
   )
