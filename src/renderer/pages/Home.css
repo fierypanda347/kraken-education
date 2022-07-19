@@ -1,8 +1,54 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
 #home {
   position: fixed;
   top: 50px;
   left: 70px;
-}
+=======
 #class-container {
-  margin: 25px 0px 0px 30px;
+  padding: 25px 30px 0px 30px;
+}
+#class-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+#class-container-header button {
+  color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  width: 125px;
+>>>>>>> Stashed changes
+}
+>>>>>>> Stashed changes
+#class-container {
+  padding: 25px 30px 0px 30px;
+}
+#class-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+#class-container-header button {
+  transition: 0.2s ease-in;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  width: 125px;
+}
+#class-container-header button:hover {
+  cursor: pointer;
+}
+#class-container-header button:hover {
+  transition: 0.2s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
